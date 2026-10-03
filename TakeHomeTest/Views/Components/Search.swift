@@ -17,6 +17,7 @@ struct Search: View {
                 "Search artist",
                 text: $searchText
             )
+            .disableAutocorrection(true)
         }
         .padding()
         .background{
