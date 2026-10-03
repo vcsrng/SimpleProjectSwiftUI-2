@@ -1,9 +1,7 @@
 # Music Player
-
 This is a simple but modern iOS music player. It's written entirely in SwiftUI and uses the MVVM pattern to keep the code clean, readable, and easy to maintain.
 
 ## What's Inside
-
 - **Music Search**: Type in the search bar, and it will fetch artists and songs live from the iTunes Search API. (I added a small debounce so it doesn't spam the network).
 - **Playback & Controls**: You can tap any song in the list to play it right away. The player controls (Play/Pause, Next, Previous, and a scrubbable progress slider) will pop up at the bottom. 
 - **Auto-Play**: When a song finishes, it automatically rolls into the next track in the list.
@@ -17,7 +15,6 @@ I tried to keep the architecture straightforward without over-engineering it:
 - **CI/CD**: I also threw in a quick GitHub Actions workflow (`ios.yml`) so the app builds automatically whenever code is pushed to the repo. 
 
 ## Getting Started
-
 1. Clone this repo.
 2. Open `TakeHomeTest.xcodeproj` in Xcode 15+ (or newer).
 3. Pick a simulator (I used iPhone 15 Pro) and hit `Cmd + R` to run it.
@@ -25,9 +22,7 @@ I tried to keep the architecture straightforward without over-engineering it:
 ---
 
 ## Project Timeline
-
 Here is a rough breakdown of how I spent my time on this assignment:
-
 - **Initial Setup (30 mins)**: Project scaffolding, setting up the file structure (`Views`, `ViewModels`, `Models`), and initializing the GitHub repository.
 - **UI & Layout (1.5 hours)**: Building the core SwiftUI components based on the provided mockup (Search bar, Song Cards, and the bottom Player Controls).
 - **Networking & Data (1 hour)**: Hooking up the iTunes Search API, parsing the JSON with `Codable`, and wiring it up to the ViewModel.
