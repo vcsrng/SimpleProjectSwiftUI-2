@@ -23,8 +23,8 @@ I tried to keep the architecture straightforward without over-engineering it:
 
 ## Project Timeline
 Here is a rough breakdown of how I spent my time on this assignment:
-- **Initial Setup (30 mins)**: Project scaffolding, setting up the file structure (`Views`, `ViewModels`, `Models`), and initializing the GitHub repository.
-- **UI & Layout (1.5 hours)**: Building the core SwiftUI components based on the provided mockup (Search bar, Song Cards, and the bottom Player Controls).
-- **Networking & Data (1 hour)**: Hooking up the iTunes Search API, parsing the JSON with `Codable`, and wiring it up to the ViewModel.
-- **Audio Integration (1.5 hours)**: Getting `AVPlayer` to play the audio previews, tracking the playback progress for the slider, and handling the auto-play/skip logic.
+- **Initial Setup**: Project scaffolding, setting up the file structure (`Views`, `ViewModels`, `Models`), and initializing the GitHub repository.
+- **UI & Layout**: Building the core SwiftUI components based on the provided mockup (Search bar, Song Cards, and the bottom Player Controls).
+- **Networking & Data**: Hooking up the iTunes Search API, parsing the JSON with `Codable`, and wiring it up to the ViewModel.
+- **Audio Integration**: Getting `AVPlayer` to play the audio previews, tracking the playback progress for the slider, and handling the auto-play/skip logic.
 - **Polish & CI/CD (1 hour)**: Adding loading/error states, writing this README, setting up the GitHub Action, and doing a final code cleanup.
